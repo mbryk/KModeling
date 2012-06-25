@@ -32,28 +32,20 @@ define([
         start: function(e)
         {
             e.preventDefault();
-            alert("heyo start!");
 
             var that = this;
             /* dashboard holds logged user, and logged user should have its id */
             /* lets put bogus one for now */
-            require(['models/build', 'views/build/1', 'constants'],
-                function (MindmapModel, NewMindmapView, Constants) {
+            require(['models/build', 'views/build/first1'],
+                function (BuildModel, NewFirstView) {
 
-                    /* unit collection for TIME units required only */
-                    var unitCollection = Constants.UNITS.where({unitType:Constants.UNIT_TYPES.TIME});
+                    var buildModel = new BuildModel();
 
-                    var mindmapModel = new MindmapModel();
+                    that.newFirstView = new NewFirstView({header:'Start Build', model:buildModel});
 
-                    mindmapModel.on('new:mindmap:create', that.createMindmap);
-
-                    that.newMindmapView = new NewMindmapView({header:'Create New Mindmap', model:mindmapModel, units:unitCollection});
-
-                    that.newMindmapView.render().$el.modal();
+                    that.newFirstView.render().$el.modal();
                     return false;
                 });
-
-
         },
         
         render:function () {

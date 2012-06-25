@@ -29,6 +29,7 @@ class MindmapController extends RestController
 
     public function actionCreate()
     {
+        var_dump($data);
         $class = $this->modelClass;
         $data = $this->getInputAsJson();
 

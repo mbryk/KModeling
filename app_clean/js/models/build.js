@@ -14,7 +14,7 @@ define([
 
         defaults:{
             account_id:0, // attributes are better to be capitalized than underscored
-            company_name:'',
+            company_name:'Heya',
             industry:'Coal',
             website:''
         },
@@ -23,7 +23,7 @@ define([
          * url changes when it has id so to clarify create/update calls
          */
         url:function () {
-            return !this.isNew() ? 'api/build/' + this.id : 'api/build';
+            return 'api/build';
         },
 
         /**
@@ -33,8 +33,8 @@ define([
         validation: {
             company_name: {
                 required: true,
-                msg: 'Name is required'
-            },
+                msg: 'Company Name is required'
+            }
         }
     });
 
