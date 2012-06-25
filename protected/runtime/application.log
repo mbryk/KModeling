@@ -1,0 +1,396 @@
+2012/06/22 20:17:54 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:19:45 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:22:30 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:22:46 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:33:45 [error] [php] require(C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php) [<a href='function.require'>function.require</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php:344)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:47:11 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:47:32 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:48:07 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:50:09 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:50:11 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:53:32 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 20:59:49 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 21:02:32 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 21:02:58 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 21:15:00 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 21:15:55 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 21:21:30 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 21:26:37 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 21:26:39 [error] [php] include(C:\xampp\htdocs\mybackbone\protected\components\Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: Permission denied (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(344): require()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (4)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 22:08:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app_clean".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(271): CController->missingAction('app_clean')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(276): CController->run('app_clean')
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('site/app_clean/...')
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mybackbone/index.php/site/app_clean/js/main.js
+HTTP_REFERER=http://localhost/mybackbone/index.php/site/index
+---
+2012/06/22 22:09:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app_clean".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(271): CController->missingAction('app_clean')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(276): CController->run('app_clean')
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('site/app_clean/...')
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mybackbone/index.php/site/app_clean/js/main.js
+HTTP_REFERER=http://localhost/mybackbone/index.php/site/index
+---
+2012/06/22 22:12:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app_clean".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(271): CController->missingAction('app_clean')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(276): CController->run('app_clean')
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('site/app_clean/...')
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mybackbone/site/app_clean/js/main.js
+HTTP_REFERER=http://localhost/mybackbone/site/index
+---
+2012/06/22 22:14:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app_clean".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(271): CController->missingAction('app_clean')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(276): CController->run('app_clean')
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('site/app_clean/...')
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mybackbone/site/app_clean/js/main.js
+HTTP_REFERER=http://localhost/mybackbone/site/index
+---
+2012/06/22 22:15:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app_clean".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(271): CController->missingAction('app_clean')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(276): CController->run('app_clean')
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('site/app_clean/...')
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mybackbone/site/app_clean/js/main.js
+HTTP_REFERER=http://localhost/mybackbone/site/index
+---
+2012/06/22 22:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app_clean".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(271): CController->missingAction('app_clean')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(276): CController->run('app_clean')
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('site/app_clean/...')
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mybackbone/site/app_clean/js/main.js
+HTTP_REFERER=http://localhost/mybackbone/site/index
+---
+2012/06/22 22:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app_clean".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(271): CController->missingAction('app_clean')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(276): CController->run('app_clean')
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('site/app_clean/...')
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mybackbone/site/app_clean/js/main.js
+HTTP_REFERER=http://localhost/mybackbone/site/index
+---
+2012/06/22 22:44:16 [error] [php] include(bCrypt.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\components\UserIdentity.php(30): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(84): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#5 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#8 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(276): SiteController->run()
+#12 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#13 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/api/site/login
+in C:\xampp\htdocs\mybackbone\protected\components\UserIdentity.php (30)
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (84)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 22:47:12 [error] [php] include(bCrypt.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\components\UserIdentity.php(30): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(84): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#5 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#8 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(276): SiteController->run()
+#12 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#13 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/api/site/login
+in C:\xampp\htdocs\mybackbone\protected\components\UserIdentity.php (30)
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (84)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 23:03:28 [error] [php] include(bCrypt.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\YiiBase.php:418)
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\components\UserIdentity.php(30): spl_autoload_call()
+#1 C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php(84): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#3 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#5 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#8 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(276): SiteController->run()
+#12 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#13 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\mybackbone\index.php(13): CWebApplication->run()
+REQUEST_URI=/mybackbone/api/site/login
+in C:\xampp\htdocs\mybackbone\protected\components\UserIdentity.php (30)
+in C:\xampp\htdocs\mybackbone\protected\controllers\SiteController.php (84)
+in C:\xampp\htdocs\mybackbone\index.php (13)
+2012/06/22 23:04:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/site/login".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/site/login')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mybackbone/api/site/login
+---
+2012/06/22 23:08:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app_clean/js/order.js".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('app_clean/js/or...')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mybackbone/app_clean/js/order.js
+HTTP_REFERER=http://localhost/mybackbone/
+---
+2012/06/25 01:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app_clean/js/order.js".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('app_clean/js/or...')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mybackbone/app_clean/js/order.js
+HTTP_REFERER=http://localhost/mybackbone/
+---
+2012/06/25 01:01:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app_clean/js/order.js".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('app_clean/js/or...')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mybackbone/app_clean/js/order.js
+---
+2012/06/25 01:37:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app_clean/js/order.js".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('app_clean/js/or...')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mybackbone/app_clean/js/order.js
+---
+2012/06/25 01:37:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app_clean/js/order.js".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('app_clean/js/or...')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mybackbone/app_clean/js/order.js
+HTTP_REFERER=http://localhost/mybackbone/
+---

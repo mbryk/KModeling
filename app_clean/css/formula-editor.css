@@ -1,0 +1,385 @@
+ul.editor-list {
+    overflow: hidden;
+    height: auto !important;
+    height: 1%;
+    width: 400px;
+    border: 1px solid #999;
+    cursor: text;
+    font-size: 12px;
+    font-family: Verdana;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    list-style-type: none;
+    clear: left;
+}
+
+ul.editor-list li {
+    list-style-type: none;
+}
+
+ul.editor-list li input {
+    border: 0;
+    width: 350px;
+    padding: 3px 8px;
+    background-color: white;
+    -webkit-appearance: caret;
+}
+
+li.editor-token {
+    overflow: hidden;
+    height: auto !important;
+    height: 1%;
+    margin: 3px;
+    padding: 3px 5px;
+    background-color: #d0efa0;
+    color: #000;
+    font-weight: bold;
+    cursor: default;
+    display: block;
+}
+
+li.editor-token p {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+li.editor-token span {
+    float: right;
+    color: #777;
+    cursor: pointer;
+}
+
+li.editor-selected-token {
+    background-color: #08844e;
+    color: #fff;
+}
+
+li.editor-selected-token span {
+    color: #bbb;
+}
+
+div.editor-dropdown {
+    position: absolute;
+    width: 400px;
+    background-color: #fff;
+    overflow: hidden;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    cursor: default;
+    font-size: 12px;
+    font-family: Verdana;
+    z-index: 1;
+}
+
+div.editor-dropdown p {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    color: #777;
+}
+
+div.editor-dropdown ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.editor-dropdown ul li {
+    background-color: #fff;
+    padding: 3px;
+    list-style-type: none;
+}
+
+div.editor-dropdown ul li.editor-dropdown-item {
+    background-color: #fafafa;
+}
+
+div.editor-dropdown ul li.editor-dropdown-item2 {
+    background-color: #fff;
+}
+
+div.editor-dropdown ul li em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+div.editor-dropdown ul li.editor-selected-dropdown-item {
+    background-color: #d0efa0;
+}
+
+/*--------------*/
+.editor-formula .editor-icon {
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+    width: 16px; height: 16px;
+}
+.editor-formula .editor-icon-cancel {
+    width: 11px; height: 11px;
+    background-position: center 0;
+    background-image: url(images/editor/cancel_formula.png);
+    cursor: pointer;
+}
+.editor-formula .editor-icon-cancel:hover {
+    background-position: center -11px;
+}
+.editor-formula .editor-icon-formula {
+    width: 12px; height: 12px;
+    background-image: url(images/editor/formula_glyph.png);
+}
+
+.editor-formula div, .editor-formula span, .editor-formula a, .editor-formula img,
+.editor-formula ul, .editor-formula li, .editor-formula form, .editor-formula label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+.editor-formula :focus {
+    outline: 0;
+}
+.editor-formula {
+    line-height: 1;
+    color: black;
+}
+
+.editor-formula {
+    font-family: Arial, sans-serif;
+    color: #373737;
+    font-size: 12px;
+}
+.editor-formula input {
+    display: block;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    margin: 0; padding: 4px;
+    background: transparent;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+}
+.editor-formula .dialog, .editor-formula input {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif !important;
+    line-height: 1.1em;
+}
+.editor-formula .formula_input {
+    height: 28px;
+    float: left;
+    margin-left: -1px;
+}
+.editor-formula .formula_input input {
+    padding: 6px 3px 6px 2px;
+    line-height: 10px;
+    height: 22px;
+    margin-top: -4px;
+    width: 10px;
+    z-index: 100;
+    min-width: 4px;
+    position: relative;
+}
+
+.ui-autocomplete, .ui-menu-item {
+    z-index: 1550 !important;
+}
+
+.editor-formula .editor-formula-box {
+    border: 2px solid #CCC;
+    cursor: text;
+    position: relative;
+    background: transparent;
+    border-radius: 16px; -webkit-border-radius: 16px; -moz-border-radius: 16px;
+    background-color: #fff;
+    /* -webkit-box-shadow: inset 0px 0px 3px #ccc; */
+    /* -moz-box-shadow: inset 0px 0px 3px #ccc; */
+    /* box-shadow: inset 0px 0px 3px #ccc; */
+    min-height: 28px;
+    height: auto;
+    width: 600px;
+    float: left;
+    margin: 4px 0 0 4px;
+}
+.editor-formula .editor-formula-box.editor-focus {
+    border-color: #acf;
+    -webkit-box-shadow: inset 0px 0px 3px #acf;
+    -moz-box-shadow: inset 0px 0px 3px #acf;
+    box-shadow: inset 0px 0px 3px #acf;
+}
+.editor-formula .editor-formula-inner {
+    position: relative;
+    margin: 0 20px 0 22px;
+    overflow: hidden;
+}
+.editor-formula input {
+    width: 100px;
+}
+.editor-formula input,
+.editor-formula .editor-input-width-tester {
+    padding: 6px 0;
+    float: left;
+    color: #808080;
+    font: 13px/17px Helvetica, Arial;
+}
+.editor-formula.editor-focus input {
+    color: #606060;
+}
+.editor-formula .editor-icon-formula {
+    position: absolute;
+    left: 9px; top: 8px;
+}
+.editor-formula .editor-icon-cancel {
+    position: absolute;
+    right: 9px; top: 8px;
+}
+
+/************************************/
+
+/* Example tokeninput style #2: Facebook style */
+ul.editor-list-facebook {
+    overflow: hidden;
+    height: auto !important;
+    height: 1%;
+    width: 550px;
+    /*border: 1px solid #8496ba;*/
+    cursor: text;
+    font-size: 12px;
+    font-family: Verdana;
+    min-height: 1px;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    list-style-type: none;
+    clear: left;
+}
+
+ul.editor-list-facebook li input {
+    border: 0;
+    width: 100px;
+    padding: 3px 0px;
+    background-color: white;
+    margin: 2px 0;
+    -webkit-appearance: caret;
+}
+
+li.editor-token-facebook {
+    overflow: hidden;
+    height: auto !important;
+    height: 15px;
+    margin: 3px;
+    padding: 1px 3px;
+    background-color: #eff2f7;
+    color: #000;
+    cursor: default;
+    border: 1px solid #ccd5e4;
+    font-size: 11px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float: left;
+    white-space: nowrap;
+}
+li.editor-token-text {
+    overflow: hidden;
+    height: auto !important;
+    height: 15px;
+    margin: 4px 0px 0px;
+    padding: 2px 0px;
+    color: #000;
+    cursor: default;
+    font-size: 11px;
+    float: left;
+    white-space: nowrap;
+}
+
+li.editor-token-facebook p, li.editor-token-text p {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+li.editor-selected-token-text {
+    /*background-color: #eee;*/
+    border-bottom: 1px solid #000;
+}
+
+li.editor-token-facebook span {
+    color: #a6b3cf;
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li.editor-selected-token-facebook {
+    background-color: #5670a6;
+    border: 1px solid #3b5998;
+    color: #fff;
+}
+
+li.editor-input-token-facebook {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div.editor-dropdown-facebook {
+    position: absolute;
+    width: 550px;
+    background-color: #fff;
+    overflow: hidden;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    cursor: default;
+    font-size: 11px;
+    font-family: Verdana;
+    z-index: 1;
+}
+
+div.editor-dropdown-facebook p {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    color: #777;
+}
+
+div.editor-dropdown-facebook ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.editor-dropdown-facebook ul li {
+    background-color: #fff;
+    padding: 3px;
+    margin: 0;
+    list-style-type: none;
+}
+
+div.editor-dropdown-facebook ul li.editor-dropdown-item-facebook {
+    background-color: #fff;
+}
+
+div.editor-dropdown-facebook ul li.editor-dropdown-item2-facebook {
+    background-color: #fff;
+}
+
+div.editor-dropdown-facebook ul li em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+div.editor-dropdown-facebook ul li.editor-selected-dropdown-item-facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
