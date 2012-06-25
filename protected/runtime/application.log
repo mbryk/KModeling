@@ -432,3 +432,38 @@ Stack trace:
 #15 {main}
 ---
 2012/06/25 17:18:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myslapdb.tbl_migration' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_migration`.
+2012/06/25 18:32:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app_clean/js/order.js".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('app_clean/js/or...')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/app_clean/js/order.js
+HTTP_REFERER=http://localhost/newback/
+---
+2012/06/25 19:02:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "heyo".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('heyo')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/heyo
+HTTP_REFERER=http://localhost/newback/
+---
+2012/06/25 19:04:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "build/1".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('build/1')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/build/1
+---
+2012/06/25 19:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app_clean/js/order.js".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('app_clean/js/or...')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/app_clean/js/order.js
+HTTP_REFERER=http://localhost/newback/
+---

@@ -28,6 +28,7 @@ define([
             'dashboard':'dashboard', // #/dashboard
             'mindmap/:id':'mindmap', // #/mindmap/id
             'error/:number':'error', // #/error/number
+            'build':'build',
 
             // paths not found
             '*path':'notFound'
@@ -94,6 +95,16 @@ define([
                 MindmapView.render();
             });
         });
+        
+        router.on('route:build', function (actions) {
+
+            require(['views/build/profile'], function (BuildPage) {
+
+                var BuildView = Vm.create(appView, 'BuildPage', BuildPage, {buildId:actions});
+
+                BuildView.render();
+            });
+        });        
 
         router.on('route:reset', function () {
             /* TODO this doesn't actually work, needed to change it or remove it completely*/
