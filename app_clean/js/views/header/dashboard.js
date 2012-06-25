@@ -31,7 +31,8 @@ define([
             'click #nav-new':'newMindmap',
             'click #nav-duplicate':'duplicateMindmap',
             'click #nav-delete':'deleteMindmap',
-            'click #nav-logout':'logout'
+            'click #nav-logout':'logout',
+            'click #build-modals':'buildPhase',
 
         },
 
@@ -95,6 +96,29 @@ define([
 
             Backbone.Events.trigger('site:logout');
 
+        },
+        
+        launchModals: function (e) {
+            e.preventDefault();
+
+            var that = this;
+            /* dashboard holds logged user, and logged user should have its id */
+            /* lets put bogus one for now */
+            require(['models/build', 'views/build/new', 'constants'],
+                function (buildModel, newBuildView, Constants) {
+
+                    /* unit collection for TIME units required only */
+                    var unitCollection = Constants.UNITS.where({unitType:Constants.UNIT_TYPES.TIME});
+
+                    var buildModel = new BuildModel();
+
+                    buildModel.on('new:build:create', that.createMindmap);
+
+                    that.newBuildView = new newBuildView({header:'Build Modals', model:buildModel, units:unitCollection});
+
+                    that.newBuildView.render().$el.modal();
+                    return false;
+                });
         },
 
         /**

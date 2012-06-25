@@ -394,3 +394,41 @@ Stack trace:
 REQUEST_URI=/mybackbone/app_clean/js/order.js
 HTTP_REFERER=http://localhost/mybackbone/
 ---
+2012/06/25 16:49:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app_clean/js/order.js".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('app_clean/js/or...')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mybackbone/app_clean/js/order.js
+HTTP_REFERER=http://localhost/mybackbone/
+---
+2012/06/25 17:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app_clean/js/order.js".' in C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('app_clean/js/or...')
+#1 C:\xampp\htdocs\mybackbone\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mybackbone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mybackbone/app_clean/js/order.js
+HTTP_REFERER=http://localhost/mybackbone/
+---
+2012/06/25 17:17:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'myslabdb'' in C:\xampp\htdocs\newback\protected\lib\yiiframework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\newback\protected\lib\yiiframework\cli\commands\MigrateCommand.php(419): CModule->getComponent('db')
+#4 C:\xampp\htdocs\newback\protected\lib\yiiframework\cli\commands\MigrateCommand.php(427): MigrateCommand->getDbConnection()
+#5 C:\xampp\htdocs\newback\protected\lib\yiiframework\cli\commands\MigrateCommand.php(458): MigrateCommand->getMigrationHistory(-1)
+#6 C:\xampp\htdocs\newback\protected\lib\yiiframework\cli\commands\MigrateCommand.php(75): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 C:\xampp\htdocs\newback\protected\lib\yiiframework\console\CConsoleCommand.php(141): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 C:\xampp\htdocs\newback\protected\lib\yiiframework\console\CConsoleCommandRunner.php(65): CConsoleCommand->run(Array)
+#10 C:\xampp\htdocs\newback\protected\lib\yiiframework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CConsoleApplication->processRequest()
+#12 C:\xampp\htdocs\newback\protected\lib\yiiframework\yiic.php(33): CApplication->run()
+#13 C:\xampp\htdocs\newback\protected\yiic.php(7): require_once('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\newback\protected\yiic(4): require_once('C:\xampp\htdocs...')
+#15 {main}
+---
+2012/06/25 17:18:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myslapdb.tbl_migration' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_migration`.

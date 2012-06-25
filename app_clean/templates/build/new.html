@@ -1,0 +1,43 @@
+<div class="modal">
+    <div class="modal-header">
+        <a class="close" data-dismiss="modal">×</a>
+
+        <h3><%= header %></h3>
+    </div>
+    <div class="modal-body">
+        <form class="well">
+            <div class="control-group">
+                <div class="controls">
+                    <label class="control-label">Company Name</label>
+                    <input name="name" type="text" class="span3" placeholder="Project Name">
+                    <span class="help-inline">Fill your new project's name.</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <label class="control-label">Time Frame</label>
+                    <input name="timeframeLength" type="text" class="span1 inline" placeholder="0" />
+                    <select class="span1 inline units-selector" name="timeframeUnitsId">
+                        <% _.each(units, function (unitOptionModel){ %>,
+                        <option value="<%=unitOptionModel.id%>"><%=unitOptionModel.get('title')%></option>
+                        <% }); %>
+                    </select>
+                    <span class="help-inline"></span>
+                </div>
+            </div>
+            <div class="controls">
+                <label class="control-label">Time Resolution</label>
+                <select class="span1 inline" name="timeResolutionUnitsId">
+                    <% _.each(units, function (unitOptionModel){ %>,
+                    <option value="<%=unitOptionModel.id%>"><%=unitOptionModel.get('title')%></option>
+                    <% }); %>
+                </select>
+                <span class="help-inline"></span>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn btn-primary confirm">Get Started</a>
+        <a href="#" class="btn cancel">Close</a>
+    </div>
+</div>
