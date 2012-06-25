@@ -29,7 +29,7 @@ define([
             'mindmap/:id':'mindmap', // #/mindmap/id
             'error/:number':'error', // #/error/number
             'build':'build',
-
+            
             // paths not found
             '*path':'notFound'
 
