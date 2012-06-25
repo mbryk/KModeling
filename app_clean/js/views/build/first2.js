@@ -87,12 +87,13 @@ define([
             e.preventDefault();
             
             this.model.validate();
-alert(this.model.isValid());
+            alert(this.model.isValid());
             if(this.model.isValid())
             {
                 this.$el.modal('hide');
                 
-                this.model.trigger('new:mindmap:create');
+                //this.model.trigger('new:build:submit1');
+                this.model.save();
                 this.close();
             }
         },

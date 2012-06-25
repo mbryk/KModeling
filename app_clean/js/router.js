@@ -100,7 +100,7 @@ define([
 
             require(['views/build/profile'], function (BuildPage) {
 
-                var BuildView = Vm.create(appView, 'BuildPage', BuildPage, {buildId:actions});
+                var BuildView = Vm.create(appView, 'BuildPage', BuildPage, {});
 
                 BuildView.render();
             });

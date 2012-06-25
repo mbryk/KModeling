@@ -7,28 +7,20 @@ define([
 
     var BuildPage = Backbone.View.extend({
         el:'.page',
+        
+        initialize:function () {
+            require(['collections/build'],
+                function (BuildCollection) {                    
+                    var buildCollection = new BuildCollection();
+                    this.collection = buildCollection;
+                    return false;
+                });
+        },
 
         events:{
             'click #start-build':'start',
-            'click #next':'nextScreen',
-            'click #previous':'previousScreen',
-            'click #cancel':'cancel'
         },
 
-        nextScreen:function (e) {
-            e.preventDefault();
-            alert("heyo");
-            //save whatever is on this screen
-        },
-        previousScreen: function(e)
-        {
-            e.preventDefault();
-            alert("heyo prev");
-        },
-        cancel: function(e)
-        {
-            
-        },
         start: function(e)
         {
             e.preventDefault();
@@ -36,16 +28,24 @@ define([
             var that = this;
             /* dashboard holds logged user, and logged user should have its id */
             /* lets put bogus one for now */
-            require(['models/build', 'views/build/first1'],
-                function (BuildModel, NewFirstView) {
-
+            require(['views/build/first1','models/build'],
+                function (NewFirstView, BuildModel) {
                     var buildModel = new BuildModel();
-
-                    that.newFirstView = new NewFirstView({header:'Start Build', model:buildModel});
+                    buildModel.on('new:build:submit1', this.buildFirst);
+                    buildModel.on('new:build:submit2', this.buildSecond);
+                    buildModel.on('new:build:submit3', this.buildThird);
+                    buildModel.on('new:build:submit4', this.buildFourth);
+                    
+                    that.newFirstView = new NewFirstView({header:'Start Build', model: buildModel});
 
                     that.newFirstView.render().$el.modal();
                     return false;
                 });
+        },
+        
+        buildFirst: function()
+        {
+            //this.collection.create(model);
         },
         
         render:function () {

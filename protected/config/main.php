@@ -26,7 +26,17 @@ return CMap::mergeArray(array(
         'application.helpers.*',
     ),
 
-    'modules' => array(),
+    'modules' => array(
+        'gii'=>array(
+            'class'=>'system.gii.GiiModule',
+            'password'=>'admin',
+            // If removed, Gii defaults to localhost only. Edit carefully to taste.
+            'ipFilters'=>array('127.0.0.1','::1'),
+            'generatorPaths'=>array(
+                'bootstrap.gii', // since 0.9.1
+		),
+            ),
+    ),
 
     // application components
     'components' => array(
@@ -47,12 +57,12 @@ return CMap::mergeArray(array(
 
 
                 // REST Controller Patterns
-                array('<controller>/list', 'pattern' => 'api/<controller:(node|mindmap|unit)>s', 'verb' => 'GET'),
-                array('<controller>/list', 'pattern' => 'api/<controller:(node|mindmap|unit)>s/<id:\d+>', 'verb' => 'GET'),
-                array('<controller>/create', 'pattern' => 'api/<controller:(node|mindmap|unit)>', 'verb' => 'POST'),
-                array('<controller>/read', 'pattern' => 'api/<controller:(node|mindmap|unit)>/<id:\d+>', 'verb' => 'GET'),
-                array('<controller>/update', 'pattern' => 'api/<controller:(node|mindmap|unit)>/<id:\d+>', 'verb' => 'PUT'),
-                array('<controller>/delete', 'pattern' => 'api/<controller:(node|mindmap|unit)>/<id:\d+>', 'verb' => 'DELETE'),
+                array('<controller>/list', 'pattern' => 'api/<controller:(node|mindmap|unit|build)>s', 'verb' => 'GET'),
+                array('<controller>/list', 'pattern' => 'api/<controller:(node|mindmap|unit|build)>s/<id:\d+>', 'verb' => 'GET'),
+                array('<controller>/create', 'pattern' => 'api/<controller:(node|mindmap|unit|build)>', 'verb' => 'POST'),
+                array('<controller>/read', 'pattern' => 'api/<controller:(node|mindmap|unit|build)>/<id:\d+>', 'verb' => 'GET'),
+                array('<controller>/update', 'pattern' => 'api/<controller:(node|mindmap|unit|build)>/<id:\d+>', 'verb' => 'PUT'),
+                array('<controller>/delete', 'pattern' => 'api/<controller:(node|mindmap|unit|build)>/<id:\d+>', 'verb' => 'DELETE'),
 
                 // Other controllers
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',

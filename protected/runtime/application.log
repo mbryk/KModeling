@@ -467,3 +467,158 @@ Stack trace:
 REQUEST_URI=/newback/app_clean/js/order.js
 HTTP_REFERER=http://localhost/newback/
 ---
+2012/06/25 22:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/collection".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/collection')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/api/collection
+---
+2012/06/25 22:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/build".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/build')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/api/build
+HTTP_REFERER=http://localhost/newback/
+---
+2012/06/25 22:28:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/build".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/build')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/api/build
+HTTP_REFERER=http://localhost/newback/
+---
+2012/06/25 22:29:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/build".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/build')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/api/build
+HTTP_REFERER=http://localhost/newback/
+---
+2012/06/25 22:30:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "build/create".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('build/create')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/build/create
+HTTP_REFERER=http://localhost/newback/
+---
+2012/06/25 22:30:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "build/create".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('build/create')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/build/create
+---
+2012/06/25 22:31:40 [error] [php] Undefined variable: data (C:\xampp\htdocs\newback\protected\controllers\MindMapController.php:32)
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\filters\CFilterChain.php(134): MindmapController->runAction()
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\filters\CInlineFilter.php(59): MindmapController->filterAccessControl()
+#4 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(266): MindmapController->runActionWithFilters()
+#7 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(276): MindmapController->run()
+#8 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\newback\index.php(13): CWebApplication->run()
+REQUEST_URI=/newback/mindmap/create
+in C:\xampp\htdocs\newback\protected\controllers\MindMapController.php (32)
+in C:\xampp\htdocs\newback\index.php (13)
+2012/06/25 22:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/mindmap".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/mindmap')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/api/mindmap
+---
+2012/06/25 22:33:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/build".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/build')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/api/build
+---
+2012/06/25 22:33:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "build".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('build')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/build
+---
+2012/06/25 22:34:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "build/index".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('build/index')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/build/index
+---
+2012/06/25 22:34:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "build/index".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('build/index')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/build/index
+---
+2012/06/25 22:34:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "build/index".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('build/index')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/index.php/build/index
+---
+2012/06/25 22:37:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/gii
+---
+2012/06/25 22:39:10 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "C:\xampp\htdocs\newback\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CAssetManager.php:116
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CAssetManager.php(101): CAssetManager->setBasePath('C:\xampp\htdocs...')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 C:\xampp\htdocs\newback\protected\lib\yiiframework\gii\GiiModule.php(139): CAssetManager->publish('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CComponent.php(112): GiiModule->getAssetsUrl()
+#4 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CModule.php(106): CComponent->__get('assetsUrl')
+#5 C:\xampp\htdocs\newback\protected\lib\yiiframework\gii\views\layouts\main.php(5): CModule->__get('assetsUrl')
+#6 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div class="con...')
+#10 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#11 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CBaseController.php(207): COutputProcessor->run()
+#12 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#13 C:\xampp\htdocs\newback\protected\lib\yiiframework\gii\views\layouts\column1.php(7): CBaseController->endContent()
+#14 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#15 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#17 C:\xampp\htdocs\newback\protected\lib\yiiframework\gii\controllers\DefaultController.php(47): CController->render('login', Array)
+#18 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\actions\CInlineAction.php(50): DefaultController->actionLogin()
+#19 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(276): CController->run('login')
+#23 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('gii/default/log...')
+#24 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/newback/index.php/gii/default/login
+---

@@ -23,7 +23,7 @@ define([
          * url changes when it has id so to clarify create/update calls
          */
         url:function () {
-            return 'api/build';
+            return !this.isNew() ? 'api/build' + this.account_id : 'api/build';
         },
 
         /**
