@@ -29,7 +29,7 @@ class UserIdentity extends CUserIdentity
 		else if($users[$this->username]!==$this->password)
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
 		else
-                        $this->_id = 10;
+                        $this->_id = 11;
 			$this->errorCode=self::ERROR_NONE;
 		return !$this->errorCode;
 	}
