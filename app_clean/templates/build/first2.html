@@ -6,22 +6,37 @@
     </div>
     <div class="modal-body">
         <form class="well">
-            <div class="control-group">
-                <div class="controls">
-                    <label class="control-label">Company Name</label>
-                    <input name="company_name" type="text" class="span3" placeholder="Company Name">
-                    <span class="help-inline">What is your company's name? How would you like to be displayed to others?</span>
-                </div>
-            </div>
-            <div class="controls">
-                <label class="control-label">NEW ONE!!!!</label>
-                <select class="span1 inline" name="revenue1">
-                    <option value="1">A</option>
-                    <option value="2">B</option>
-                    <option value="3">C</option>
-                </select>
-                <span class="help-inline"></span>
-            </div>
+<div class="grid_8">
+        <h1>Creating your vision statement</h1>
+        <div class="instruction">
+          <p>Your vision statement represents the passion and perseverance behind your business. It's your guiding principal – the reason you got in this crazy business in the first place. Without a clear vision statement, there is a greater risk of losing your way as you get pulled into daily operations. Let this vision statement be your beacon in the fog and provide clarity to your overall business objectives.</p>
+          <p><em>Example: ACME Corporation sells premium, organic honey for Heather on a national scale.</em></p>
+        </div>
+        <p>ACME Corporation
+          <select name="vision_verb1">
+            <option value="does" selected="selected">does</option>
+            <option value="provides">provides</option>
+            <option value="sells">sells</option>
+          </select>
+          <input id="vision-what" name="vision_what" type="text" placeholder="what" class="input_xlarge" size="40"/>
+        </p>
+        <p>
+          <select name="vision_verb2">
+            <option value="for" selected="selected">for</option>
+            <option value="to">to</option>
+          </select>
+          <input id="vision-for" name="vision_whom" type="text" placeholder="whom" class="input_large" size="40"/>
+          on a
+          <select name="vision_scale" id="vision-scope">
+            <option value="0">market size</option>
+            <option value="1">local</option>
+            <option value="2">regional</option>
+            <option value="3">national</option>
+            <option value="4">global</option>
+          </select>
+          scale.
+        </p>
+      </div>
         </form>
     </div>
     <div class="modal-footer">

@@ -13,10 +13,8 @@ define([
     var BuildModel = Backbone.Model.extend({
 
         defaults:{
-            account_id:0, // attributes are better to be capitalized than underscored
-            company_name:'Heya',
-            industry:'Coal',
-            website:''
+            company_name:'',
+            industry:'Electronics'
         },
 
         /**

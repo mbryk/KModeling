@@ -87,7 +87,6 @@ define([
             e.preventDefault();
             
             this.model.validate();
-            alert(this.model.isValid());
             if(this.model.isValid())
             {
                 this.$el.modal('hide');

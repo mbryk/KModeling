@@ -656,3 +656,60 @@ Stack trace:
 REQUEST_URI=/newback/api/build
 HTTP_REFERER=http://localhost/newback/
 ---
+2012/06/26 15:48:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `master_account` (`account_id`, `company_name`, `industry`, `website`, `vision_verb1`, `vision_what`, `vision_whom`, `vision_scale`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=11, :yp1='mark', :yp2='Coal', :yp3='', :yp4='sells', :yp5='what', :yp6='me', :yp7='1'.
+in C:\xampp\htdocs\newback\protected\controllers\BuildController.php (26)
+in C:\xampp\htdocs\newback\index.php (13)
+2012/06/26 15:48:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `master_account` (`account_id`, `company_name`, `industry`, `website`, `vision_verb1`, `vision_what`, `vision_whom`, `vision_scale`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7). Bound with :yp0=11, :yp1='mark', :yp2='Coal', :yp3='', :yp4='sells', :yp5='what', :yp6='me', :yp7='1'' in C:\xampp\htdocs\newback\protected\lib\yiiframework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\db\ar\CActiveRecord.php(1014): CDbCommand->execute()
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\db\ar\CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\newback\protected\controllers\BuildController.php(26): CActiveRecord->save()
+#3 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\actions\CInlineAction.php(50): BuildController->actionCreate()
+#4 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(276): CController->run('create')
+#13 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('build/create')
+#14 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/newback/api/build
+HTTP_REFERER=http://localhost/newback/
+---
+2012/06/26 15:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/build".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/build')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/api/build
+---
+2012/06/26 15:54:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/site/login".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/site/login')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/api/site/login
+---
+2012/06/26 15:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/site/login".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/site/login')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/api/site/login
+---
+2012/06/26 15:54:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/build".' in C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\newback\protected\lib\yiiframework\web\CWebApplication.php(135): CWebApplication->runController('api/build')
+#1 C:\xampp\htdocs\newback\protected\lib\yiiframework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\newback\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newback/api/build
+---
